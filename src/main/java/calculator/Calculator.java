@@ -23,4 +23,9 @@ public class Calculator {
         }
         return result;
     }
+
+    public int divideAndSqrt(int a, int b) {
+        int temp = divide(a, b);
+        return (int)Math.sqrt(temp);
+    }
 }

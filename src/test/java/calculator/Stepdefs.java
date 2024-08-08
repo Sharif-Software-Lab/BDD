@@ -34,6 +34,11 @@ public class Stepdefs {
         System.out.println(result);
     }
 
+    @When("^I divide the first values by the second value and sqrt$")
+    public void divideTheValuesSqrt(){
+        result = calculator.divideAndSqrt(value1, value2);
+    }
+
     @When("^I multiply the two values$")
     public void multiplyTheValues(){
         result = calculator.multiply(value1, value2);
