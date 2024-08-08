@@ -1,6 +1,16 @@
 @tag
 Feature: Calculator
 
+  Scenario Outline: Divide and Sqrt
+    Given Two input values, <first> and <second>
+    When I divide the first values by the second value and sqrt
+    Then I expect the result is <result>
+
+    Examples:
+    | first | second | result |
+    | 4     | 1      | 2      |
+    | 36    | 4      | 3      |
+
   Scenario: Multiply two numbers
     Given Two input values, 2 and 3
     When I multiply the two values
