@@ -27,7 +27,25 @@ public class Stepdefs {
         System.out.println(result);
     }
 
-    @Then("^I expect the result is (\\d+)$")
+    @When("^I divide the first values by the second value$")
+    public void divideTheValues(){
+        result = calculator.divide(value1, value2);
+        System.out.println(result);
+    }
+
+    @When("^I multiply the two values$")
+    public void multiplyTheValues(){
+        result = calculator.multiply(value1, value2);
+        System.out.println(result);
+    }
+
+    @When("^I exponentiate the first value by the second value$")
+    public void exponentiateTheValues(){
+        result = calculator.exponentiate(value1, value2);
+        System.out.println(result);
+    }
+
+    @Then("^I expect the result is (-?\\d+)$")
     public void theValuesAreCorrect(int arg0){
         Assert.assertEquals(arg0, result);
     }
