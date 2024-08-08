@@ -34,3 +34,19 @@ BDD experiment for Software Enginnering Lab Course @ SUT.
 
 
 ## مسئله جدید
+
+در ابتدا کلاس Calculator را گسترش می‌دهیم به طوری که انواع عملیات‌ها را انجام دهد. این کلاس در نهایت از تمامی عملیات‌ها پشتیبانی می‌کند.
+
+<img width="731" alt="image" src="https://github.com/user-attachments/assets/0e0b6f78-1e95-4e3a-9e4e-52f1842a74bf">
+
+حال تست‌های بخش جذر و تست‌هایی برای بقیه قسمت‌های ماشین حساب اضافه می‌کنیم.
+
+<img width="677" alt="image" src="https://github.com/user-attachments/assets/7f6389de-6f80-4a5b-94ab-51164b9a13ff">
+<img width="825" alt="image" src="https://github.com/user-attachments/assets/5d0e55c4-d5f4-4ad5-99b0-c9a29b453a4d">
+
+حال که انواع مختلفی از تست‌ها را اضافه کردیم می‌ةوانیم همه‌ی آن ها را باهم ران کنیم و نحوه عملکرد کد را بسنجیم.
+
+<img width="1470" alt="image" src="https://github.com/user-attachments/assets/d0561631-6945-4274-a15b-a2e0eaf2cc03">
+
+در نهایت مشاهده می‌کنیم که تمامی تست‌ها به درستی ران و پاس می‌شوند.
+
