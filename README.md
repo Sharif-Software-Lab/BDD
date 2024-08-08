@@ -29,7 +29,8 @@ BDD experiment for Software Enginnering Lab Course @ SUT.
 
 بعد از تغییر رجکس در تابع Given می‌بینیم که این تست هم به درستی اجرا می‌شود و این برنامه به درستی کار می‌کند.
 
-![Uploading telegram-cloud-photo-size-4-5884249554122031521-y.jpg…]()
+![telegram-cloud-photo-size-4-5884249554122031521-y](https://github.com/user-attachments/assets/531ee6d8-b11d-44a5-a212-5ce814fcf423)
+
 
 
 ## مسئله جدید
